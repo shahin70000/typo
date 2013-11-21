@@ -16,14 +16,15 @@ Feature: Merge Article
     Then I should be on the admin content page
     And I should see "Article1"
     When I follow "New Article"
-    # Given I am on the new article page
+    #Given I am on the new article page
     And I fill in "article_title" with "Article2"
     And I fill in "article__body_and_extended_editor" with "Ipsum"
     And I press "Publish"
     Then I should be on the admin content page
     And I should see "Article2"
+
     When I follow "Edit"
-    Then I should be on edit page for article 1
+    Then I should land on the article edit page for 1
     Then I should see "Merge Articles"
 
     When I fill in "Article ID" with "2"
