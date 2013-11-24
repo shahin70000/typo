@@ -149,7 +149,7 @@
   </div>    
 
     <h4><%= _("Merge Articles") %></h4>
-    <%= form_for @merge_with, url: merge_articles_path do |mf| %>
+    <%= form_for @article, url: merge_articles_path do |mf| %>
       <%# label_tag "Article ID" %>
       <%= mf.hidden_field :merge_first_id, value: @article.id %>
       <%= mf.text_field :merge_second_id, id: "Article ID", name: "merge_with" %>
