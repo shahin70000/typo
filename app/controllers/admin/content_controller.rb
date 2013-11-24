@@ -14,7 +14,14 @@ class Admin::ContentController < Admin::BaseController
 
   def merge_atricles
     @first_article = Article.find(params[:id])
-    @second_article = Article.find(params[:merge_with])
+    @second_article = Article.find(params[:merge_with])   
+
+    #make sure user can edit both articles
+    unless current_user.admin?
+      redirect_to :action => 'index'
+      flash[:error] = _("Error, you are not allowed to perform this action")
+      return
+    end
 
     @first_article.body = @first_article.body + @second_article.body
 
