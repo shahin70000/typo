@@ -13,17 +13,17 @@ class Admin::ContentController < Admin::BaseController
 
 
   def merge_atricles
-    @first_article = Article.find(params[:article][:merge_first_id])
-    @second_article = Article.find(params[:article][:merge_second_id])
+    @first_article = Article.find(params[:id])
+    @second_article = Article.find(params[:merge_with])
 
     @first_article.body = @first_article.body + @second_article.body
     @first_article.save
 
     # moving second article comments to first
-    # @second_article.comments.each do |comment|
-    #   comment.article_id = @first_article.id
-    #   comment.save
-    # end
+    @second_article.comments.each do |comment|
+      comment.article_id = @first_article.id
+      comment.save
+    end
     @second_article.destroy
     redirect_to :action => 'index'
   end

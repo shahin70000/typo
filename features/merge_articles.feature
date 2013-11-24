@@ -80,7 +80,7 @@ Feature: Merge Article
     When I follow "Edit"
     Then I should see "Lorem"
     And I should see "Merge Articles"
-    When I fill in "Article ID" with "4"
+    When I fill in "merge_with" with "4"
     And I press "Merge"
     Then I should be on the admin content page
   # First Article should exist, while second is deleted

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50be112-b364-4676-8c2e-28dd91f715a1" name="Default" comment="" />
+    <list default="true" id="d50be112-b364-4676-8c2e-28dd91f715a1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_development" afterPath="$PROJECT_DIR$/db/db_development" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_test" afterPath="$PROJECT_DIR$/db/db_test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/content_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/content_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/content/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/content/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/merge_articles.feature" afterPath="$PROJECT_DIR$/features/merge_articles.feature" />
+    </list>
     <ignored path="typo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +38,7 @@
       <file leaf-file-name="merge_articles.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="4" selection-start="3381" selection-end="3381" vertical-scroll-proportion="1.1029083">
+            <state line="82" column="30" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.8176734">
               <folding />
             </state>
           </provider>
@@ -49,8 +56,10 @@
       <file leaf-file-name="content_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/content_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="50" selection-start="427" selection-end="437" vertical-scroll-proportion="-10.2">
-              <folding />
+            <state line="21" column="50" selection-start="427" selection-end="429" vertical-scroll-proportion="-10.2">
+              <folding>
+                <marker date="1385318256017" expanded="true" signature="386:826" placeholder=" ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -550,8 +559,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/content_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="427" selection-end="437" vertical-scroll-proportion="-10.2">
-          <folding />
+        <state line="21" column="50" selection-start="427" selection-end="429" vertical-scroll-proportion="-10.2">
+          <folding>
+            <marker date="1385318256017" expanded="true" signature="386:826" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="4" selection-start="3381" selection-end="3381" vertical-scroll-proportion="1.1029083">
+        <state line="82" column="30" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.8176734">
           <folding />
         </state>
       </provider>
