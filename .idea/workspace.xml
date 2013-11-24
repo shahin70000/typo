@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50be112-b364-4676-8c2e-28dd91f715a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_development" afterPath="$PROJECT_DIR$/db/db_development" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_test" afterPath="$PROJECT_DIR$/db/db_test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/content_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/content_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/content/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/content/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/merge_articles.feature" afterPath="$PROJECT_DIR$/features/merge_articles.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/web_steps.rb" />
-    </list>
+    <list default="true" id="d50be112-b364-4676-8c2e-28dd91f715a1" name="Default" comment="" />
     <ignored path="typo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,19 +28,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="merge_articles.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="merge_articles.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="4" selection-start="3381" selection-end="3381" vertical-scroll-proportion="-65.96">
+            <state line="97" column="4" selection-start="3381" selection-end="3381" vertical-scroll-proportion="1.1029083">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="243" column="0" selection-start="6948" selection-end="6948" vertical-scroll-proportion="2.1099021">
+            <state line="243" column="0" selection-start="6948" selection-end="6948" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -580,16 +569,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="4" selection-start="3381" selection-end="3381" vertical-scroll-proportion="-65.96">
+        <state line="243" column="0" selection-start="6948" selection-end="6948" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/merge_articles.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="0" selection-start="6948" selection-end="6948" vertical-scroll-proportion="2.1099021">
+        <state line="97" column="4" selection-start="3381" selection-end="3381" vertical-scroll-proportion="1.1029083">
           <folding />
         </state>
       </provider>
