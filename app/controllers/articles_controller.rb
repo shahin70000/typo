@@ -176,7 +176,6 @@ class ArticlesController < ContentController
     error("Post not found...")
   end
 
-
   def article_meta
     groupings = @article.categories + @article.tags
     @keywords = groupings.map { |g| g.name }.join(", ")

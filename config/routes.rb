@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   end
 
   # for CK Editor
+
   match 'fm/filemanager(/:action(/:id))', :to => 'Fm::Filemanager', :format => false
   match 'ckeditor/command', :to => 'ckeditor#command', :format => false
   match 'ckeditor/upload', :to => 'ckeditor#upload', :format => false
@@ -69,6 +70,7 @@ Rails.application.routes.draw do
   match 'articles/tag', :to => 'articles#tag', :format => false
   match 'articles/category', :to => 'articles#category', :format => false
 
+
   # SetupController
   match '/setup', :to => 'setup#index', :format => false
   match '/setup/confirm', :to => 'setup#confirm', :format => false
@@ -111,6 +113,8 @@ Rails.application.routes.draw do
     match "/admin/#{i}", :to => "admin/#{i}#index", :format => false
     match "/admin/#{i}(/:action(/:id))", :to => "admin/#{i}", :action => nil, :id => nil, :format => false
   end
+
+    match 'merge_articles', :to => 'admin/content#merge_atricles', :format => false
 
   # default
   root :to  => 'articles#index', :format => false

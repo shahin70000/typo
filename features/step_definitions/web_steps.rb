@@ -260,15 +260,15 @@ Then /^(?:|I )should be on (.+)$/ do |page_name|
   end
 end
 
- 
-Then /^(?:|I )should land on the article edit page for (.+)$/ do |article_id|
-  current_path = URI.parse(current_url).path
-  if current_path.respond_to? :should
-    current_path.should == article_edit_path(article_id)
-  else
-    assert_equal article_edit_path(article_id), current_path
-  end
-end
+## to be solved
+# Then /^(?:|I )should land on the edit article page for (.+)$/ do |article_id|
+#   current_path = URI.parse(current_url).path
+#   if current_path.respond_to? :should
+#     current_path.should == admin_content(:edit, 1)
+#   else
+#     assert_equal admin_content(:edit, 1), current_path
+#   end
+# end
 
 Then /^(?:|I )should have the following query string:$/ do |expected_pairs|
   query = URI.parse(current_url).query

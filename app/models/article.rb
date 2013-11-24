@@ -80,7 +80,7 @@ class Article < Content
     Article.exists?({:parent_id => self.id})
   end
 
-  attr_accessor :draft, :keywords
+  attr_accessor :draft, :keywords, :merge_first_id, :merge_second_id
 
   has_state(:state,
             :valid_states  => [:new, :draft,
@@ -466,4 +466,5 @@ class Article < Content
     to = to - 1 # pull off 1 second so we don't overlap onto the next day
     return from..to
   end
+
 end
