@@ -22,7 +22,7 @@ module HtmlSelectorsHelpers
     when 'the category container table'
       'table#category_container'
 
-    when 'the first category row'
+    when 'the second category row'
       'tr#category_2'
 
     when 'the left form div'
