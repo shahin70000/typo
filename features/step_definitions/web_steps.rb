@@ -56,13 +56,13 @@ And /^I am logged into the admin panel$/ do
 end
 
 # Single-line step scoper
-When /^(.*) within (.*[^:])$/ do |step, parent|
-  with_scope(parent) { When step }
+When /^(.*) within (.*[^:])$/ do |step_desc, parent|
+  with_scope(parent) { step step_desc }
 end
 
 # Multi-line step scoper
-When /^(.*) within (.*[^:]):$/ do |step, parent, table_or_string|
-  with_scope(parent) { When "#{step}:", table_or_string }
+When /^(.*) within (.*[^:]):$/ do |step_desc, parent, table_or_string|
+  with_scope(parent) { step("#{step_desc}:", table_or_string) }
 end
 
 Given /^(?:|I )am on (.+)$/ do |page_name|
@@ -285,4 +285,8 @@ end
 
 Then /^show me the page$/ do
   save_and_open_page
+end
+
+And /^(?:|I )inspect page$/ do
+  puts page.body
 end

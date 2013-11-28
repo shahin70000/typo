@@ -13,8 +13,20 @@ module HtmlSelectorsHelpers
   def selector_for(locator)
     case locator
 
-    when "the page"
-      "html > body"
+    when 'the page'
+      'html > body'
+
+    when 'the header'
+      '.page-header'
+
+    when 'the category container table'
+      'table#category_container'
+
+    when 'the first category row'
+      'tr#category_2'
+
+    when 'the left form div'
+      'div.left_form'    
 
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
